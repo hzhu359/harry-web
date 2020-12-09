@@ -1,0 +1,41 @@
+$mainFont: Helvetica, sans-serif;
+$mainColor: rgb(92, 92, 92);
+$bodyFontSize: 24px;
+$headerFontSize: 30px;
+// $mainColor: blue;
+body {
+  margin: 2% 5% 5% 2%;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  font-family: $mainFont;
+  color: $mainColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  .grid {
+    .header {
+      font-size: $headerFontSize;
+      font-weight: bold;
+    }
+    .picContainer {
+      position: relative;
+      $imWidth: 80%;
+      .harrypic {
+        width: $imWidth;
+        border-radius: 50%;
+        opacity: 80%;
+      }
+      margin-left: (100% - $imWidth) / 2;
+    }
+    .divider {
+      background-color: $mainColor;
+    }
+    font-size: $bodyFontSize;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
