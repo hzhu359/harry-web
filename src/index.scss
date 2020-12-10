@@ -20,13 +20,12 @@ body {
     }
     .picContainer {
       position: relative;
-      $imWidth: 80%;
+      $imWidth: 20rem;
       .harrypic {
         width: $imWidth;
         border-radius: 50%;
         opacity: 80%;
       }
-      margin-left: (100% - $imWidth) / 2;
     }
     .divider {
       background-color: $mainColor;
