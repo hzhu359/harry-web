@@ -1,10 +1,12 @@
 $mainFont: Helvetica, sans-serif;
 $mainColor: rgb(92, 92, 92);
-$bodyFontSize: 24px;
-$headerFontSize: 30px;
+$headerFontSize: calc(26px + 0.005*100vw);
+$bodyFontSize: calc(18px + 0.01*100vw);
+$breakpoint: 960px;
 // $mainColor: blue;
+$linkColor:#c5a2c8;
 body {
-  margin: 2% 5% 5% 2%;
+  margin: 2% 5% 10% 5%;
   // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   //   sans-serif;
@@ -12,15 +14,24 @@ body {
   color: $mainColor;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  a {
+    color: inherit;
+    &:visited {
+      color: $linkColor;
+    }
+  }
   .grid {
     .header {
       font-size: $headerFontSize;
       font-weight: bold;
     }
+    .navLink *{
+      text-decoration: none;
+      color: $linkColor;
+    }
     .picContainer {
       position: relative;
-      $imWidth: 20rem;
+      $imWidth: 15rem;
       .harrypic {
         width: $imWidth;
         border-radius: 50%;

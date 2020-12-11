@@ -1,27 +1,30 @@
 import React from 'react'
-import { Grid, AppBar, Toolbar, Typography } from "@material-ui/core";
+import { Grid, AppBar, Toolbar, Typography, Hidden } from "@material-ui/core";
 import { NavLink as Link } from "react-router-dom";
+import { routes } from '../constants/routes'
 
 function NavBar() {
+    let navArray = routes.filter((l) => l.display).map((l) => (
+        <Grid container item justify='flex-end' xs={1}>
+            <Link key={l.label} to={l.path}>{l.label}</Link>
+        </Grid>)
+        );
+    let numNavs = navArray.length;
+    let xs = 11;
+    let md = 4;
     return (
-        <Grid container itemspacing={3} direction='row'>
-            <Grid container item xs={4} justify='center'>
+        <Grid className='navBar' container itemspacing={3} direction='row'>
+            <Grid container item md={md} justify='center'>
                 <div className='header'>
                     howdy! i'm harrison
                 </div>
             </Grid>
-            <Grid item xs={4}></Grid>
-            <Grid container item spacing={3} xs={4} justify='space-between'>
-                <Grid container item xs={1} justify='center'>
-                    <Link to='/about'>about</Link>
+            <Hidden smDown>
+                <Grid item xs={12 - numNavs - md}></Grid>
+                <Grid className='navLink ' container item spacing={3} xs={numNavs} justify='space-between'>
+                    {navArray}
                 </Grid>
-                <Grid container item xs={1} justify='center'>
-                    <Link to='/pogchamp'>resume</Link>
-                </Grid>
-                <Grid container item xs={1} justify='center'>
-                    <Link to='/fun'>fun</Link>
-                </Grid>
-            </Grid>
+            </Hidden>
         </Grid>
     )
 }
