@@ -25,6 +25,34 @@ body {
       font-size: $headerFontSize;
       font-weight: bold;
     }
+    // animation stuff
+    .cross-fade-leave {
+      opacity: 1;
+    }
+    .cross-fade-leave.cross-fade-leave-active {
+      opacity: 0;
+      transition: opacity 0.3s linear
+    }
+    
+    .cross-fade-enter {
+      opacity: 0;
+    }
+    .cross-fade-enter.cross-fade-enter-active {
+      opacity: 1;
+      transition: opacity 0.3s ease-in;
+    }
+    .cross-fade-width {
+      transition: height 0.5s ease-in-out;
+    }
+
+    .helloText {
+      color: $linkColor;
+      // &:hover {
+
+      // }
+      transition: all 2s ease 0s;
+      cursor: pointer;
+    }
     .navLink *{
       text-decoration: none;
       color: $linkColor;

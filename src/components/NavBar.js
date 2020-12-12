@@ -1,7 +1,9 @@
 import React from 'react'
 import { Grid, AppBar, Toolbar, Typography, Hidden } from "@material-ui/core";
 import { NavLink as Link } from "react-router-dom";
-import { routes } from '../constants/routes'
+import { routes } from '../constants/routes';
+import FunTitle from './FunTitle';
+import { data } from '../constants/data'
 
 function NavBar() {
     let navArray = routes.filter((l) => l.display).map((l) => (
@@ -10,13 +12,13 @@ function NavBar() {
         </Grid>)
         );
     let numNavs = navArray.length;
-    let xs = 11;
     let md = 4;
     return (
         <Grid className='navBar' container itemspacing={3} direction='row'>
-            <Grid container item md={md} justify='center'>
+            <Grid container item xs={12} md={md} justify='center'>
                 <div className='header'>
-                    howdy! i'm harrison
+                    <FunTitle greetList={data.greetList} />
+                    <span> i'm harrison</span>
                 </div>
             </Grid>
             <Hidden smDown>

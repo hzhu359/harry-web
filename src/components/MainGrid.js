@@ -16,7 +16,7 @@ function MainGrid() {
                 <NavBar />
             </Grid>
             <Grid container item xs={12} spacing={3} className='twocol'>
-                <Grid container item xs={12} md={4} spacing = {3} className='picsocialcol' direction='col'>
+                <Grid container item xs={12} md={4} spacing = {3} className='picsocialcol' direction='column'>
                     <Grid className='picContainer' container item spacing={3} direction='row' justify='center'>
                         <Grid item>
                             <img src={pic} alt='harrypic' className='harrypic'/>
