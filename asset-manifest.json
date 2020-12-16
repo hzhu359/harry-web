@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/harry-web/static/css/main.1c4d42cc.chunk.css",
+    "main.js": "/harry-web/static/js/main.9ab5a57a.chunk.js",
+    "main.js.map": "/harry-web/static/js/main.9ab5a57a.chunk.js.map",
+    "runtime-main.js": "/harry-web/static/js/runtime-main.8ea5d265.js",
+    "runtime-main.js.map": "/harry-web/static/js/runtime-main.8ea5d265.js.map",
+    "static/js/2.559de443.chunk.js": "/harry-web/static/js/2.559de443.chunk.js",
+    "static/js/2.559de443.chunk.js.map": "/harry-web/static/js/2.559de443.chunk.js.map",
+    "static/js/3.e88e1203.chunk.js": "/harry-web/static/js/3.e88e1203.chunk.js",
+    "static/js/3.e88e1203.chunk.js.map": "/harry-web/static/js/3.e88e1203.chunk.js.map",
+    "index.html": "/harry-web/index.html",
+    "static/css/main.1c4d42cc.chunk.css.map": "/harry-web/static/css/main.1c4d42cc.chunk.css.map",
+    "static/js/2.559de443.chunk.js.LICENSE.txt": "/harry-web/static/js/2.559de443.chunk.js.LICENSE.txt",
+    "static/media/harry.1a4679e7.jpg": "/harry-web/static/media/harry.1a4679e7.jpg",
+    "static/media/logo.6ce24c58.svg": "/harry-web/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ea5d265.js",
+    "static/js/2.559de443.chunk.js",
+    "static/css/main.1c4d42cc.chunk.css",
+    "static/js/main.9ab5a57a.chunk.js"
+  ]
+}
