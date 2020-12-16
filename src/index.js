@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+import MainGrid from './components/MainGrid.js'
 // import { ThemeProvider } from "@material-ui/core/styles";
 // import theme from './components/theme.js'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <App />
+    <Router basename='/harry-web'>
+      <MainGrid />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

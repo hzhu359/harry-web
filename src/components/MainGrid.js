@@ -37,8 +37,8 @@ function MainGrid() {
                 <Grid item xs={12} md={7} className='desccol'>
                     <Switch>
                         <Route exact path='/' component={Blurb}/>
-                        <Route path='/about' component={Blurb}/>
-                        <Route path='/fun' component={Fun}/>
+                        <Route exact path='/about' component={Blurb}/>
+                        <Route exact path='/fun' component={Fun}/>
                         <Route render={() =>
                         <div>
                             <h1>404 babey!</h1>
