@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/harry-web/static/css/main.25bbdcda.chunk.css",
+    "main.css": "/harry-web/static/css/main.488bc2f5.chunk.css",
     "main.js": "/harry-web/static/js/main.93a8aef3.chunk.js",
     "main.js.map": "/harry-web/static/js/main.93a8aef3.chunk.js.map",
     "runtime-main.js": "/harry-web/static/js/runtime-main.307928a5.js",
@@ -10,14 +10,14 @@
     "static/js/3.5dd2d1be.chunk.js": "/harry-web/static/js/3.5dd2d1be.chunk.js",
     "static/js/3.5dd2d1be.chunk.js.map": "/harry-web/static/js/3.5dd2d1be.chunk.js.map",
     "index.html": "/harry-web/index.html",
-    "static/css/main.25bbdcda.chunk.css.map": "/harry-web/static/css/main.25bbdcda.chunk.css.map",
+    "static/css/main.488bc2f5.chunk.css.map": "/harry-web/static/css/main.488bc2f5.chunk.css.map",
     "static/js/2.6b65c9fb.chunk.js.LICENSE.txt": "/harry-web/static/js/2.6b65c9fb.chunk.js.LICENSE.txt",
     "static/media/harry.1a4679e7.jpg": "/harry-web/static/media/harry.1a4679e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.307928a5.js",
     "static/js/2.6b65c9fb.chunk.js",
-    "static/css/main.25bbdcda.chunk.css",
+    "static/css/main.488bc2f5.chunk.css",
     "static/js/main.93a8aef3.chunk.js"
   ]
 }
