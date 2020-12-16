@@ -8,13 +8,11 @@ import MainGrid from './components/MainGrid.js'
 // import { ThemeProvider } from "@material-ui/core/styles";
 // import theme from './components/theme.js'
 
-
+// console.log(process.env.PUBLIC_URL)
 ReactDOM.render(
-  <React.StrictMode>
-    <Router basename='/harry-web'>
-      <MainGrid />
-    </Router>
-  </React.StrictMode>,
+  <Router basename={process.env.PUBLIC_URL}>
+    <MainGrid />
+  </Router>,
   document.getElementById('root')
 );
 
