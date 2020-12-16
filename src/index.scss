@@ -3,6 +3,7 @@ $mainColor: rgb(92, 92, 92);
 $headerFontSize: calc(26px + 0.005*100vw);
 $bodyFontSize: calc(18px + 0.01*100vw);
 $breakpoint: 960px;
+$opacity: 80%;
 // $mainColor: blue;
 $linkColor:#c5a2c8;
 body {
@@ -63,7 +64,7 @@ body {
       .harrypic {
         width: $imWidth;
         border-radius: 50%;
-        opacity: 80%;
+        // opacity: $opacity;
       }
     }
     .divider {
