@@ -45,26 +45,6 @@ body {
       transition: height 0.5s ease-in-out;
     }
 
-    // animation stuff
-    .cross-jade-leave {
-      opacity: 1;
-    }
-    .cross-jade-leave.cross-fade-leave-active {
-      opacity: 0;
-      transition: opacity 0.3s linear
-    }
-    .cross-jade-enter {
-      opacity: 0;
-    }
-    .cross-jade-enter.cross-fade-enter-active {
-      opacity: 1;
-      transition: opacity 0.3s ease-in;
-    }
-    .cross-jade-width {
-      transition: height 0.5s ease-in-out;
-    }
-
-
     .helloText {
       color: $linkColor;
       transition: all 2s ease 0s;
@@ -80,7 +60,6 @@ body {
       img {
         width: $imWidth;
         border-radius: 50%;
-        opacity: $opacity;
       }
     }
     .divider {

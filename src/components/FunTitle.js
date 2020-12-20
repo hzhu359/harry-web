@@ -32,13 +32,11 @@ function FunTitle(props) {
     const [greet, setGreet] = useState(randomChoice(greetList, null, true));
 
     return (
-        <div>
-            <ReactCSSTransitionReplace transitionName='cross-fade'>
-                <span key={greet} className='helloText' onClick={() => setGreet(randomChoice(greetList, greet, false))}>
-                    {greet}!
-                </span>
-            </ReactCSSTransitionReplace>
-        </div>
+        <ReactCSSTransitionReplace transitionName='cross-fade'>
+            <span key={greet} className='helloText' onClick={() => setGreet(randomChoice(greetList, greet, false))}>
+                {greet}!
+            </span>
+        </ReactCSSTransitionReplace>
     )
 }
 

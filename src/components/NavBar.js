@@ -3,6 +3,7 @@ import { Grid, AppBar, Toolbar, Typography, Hidden } from "@material-ui/core";
 import { NavLink as Link } from "react-router-dom";
 import { routes } from '../constants/routes';
 import FunTitle from './FunTitle';
+import FunPhoto from './FunPhoto';
 import { data } from '../constants/data'
 
 function NavBar(props) {

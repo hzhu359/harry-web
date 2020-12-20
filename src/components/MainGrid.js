@@ -7,6 +7,7 @@ import Blurb from './Blurb'
 import Fun from './Fun'
 import NavBar from './NavBar'
 import FunPhoto from './FunPhoto'
+import pic from '../images/harry.jpg'
 import { Route, Switch} from 'react-router-dom';
 import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
@@ -21,8 +22,8 @@ function MainGrid() {
                 <Grid container item xs={12} md={4} spacing = {3} className='picsocialcol' direction='column'>
                     <Grid className='picContainer' container item spacing={3} direction='row' justify='center'>
                         <Grid item>
-                            {/* <img src={require('../images/harry.jpg')} alt='harrypic' className='harrypic'/> */}
-                            <FunPhoto className='harrypic' n={3}/>
+                            <img src={pic} alt='harrypic' className='harrypic'/>
+                            {/* <FunPhoto n={3}/> */}
                         </Grid>
                     </Grid>
                     <Grid className='socialGrid' container item spacing={3} justify='space-evenly'>
