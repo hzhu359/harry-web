@@ -28,15 +28,17 @@ function randomChoice(arr, curr, blind) {
 // }
 
 function FunTitle(props) {
-    const [greetList, setGreetList] = useState(props.greetList);
+    const [greetList, ] = useState(props.greetList);
     const [greet, setGreet] = useState(randomChoice(greetList, null, true));
 
     return (
-        <ReactCSSTransitionReplace transitionName='cross-fade'>
-            <span key={greet} className='helloText' onClick={() => setGreet(randomChoice(greetList, greet, false))}>
-                {greet}!
-            </span>
-        </ReactCSSTransitionReplace>
+        <div>
+            <ReactCSSTransitionReplace transitionName='cross-fade'>
+                <span key={greet} className='helloText' onClick={() => setGreet(randomChoice(greetList, greet, false))}>
+                    {greet}!
+                </span>
+            </ReactCSSTransitionReplace>
+        </div>
     )
 }
 
