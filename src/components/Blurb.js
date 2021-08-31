@@ -9,10 +9,12 @@ function Blurb() {
             here's my <a href={data.linkResume}>resumé</a>.
             </p>
             <p>
-                my interests are machine learning,
+                my interests are computer science theory (think algorithms and such),
+                machine learning,
                 <small>trying</small> to run,
+                powerlifting,
                 classical music (my favorite <a href={data.linkProko}>piece</a>!),
-                playing <a href={data.linkQuizBowl}>quizbowl</a> occasionally,
+                playing <a href={data.linkQuizBowl}>quizbowl</a> occasionally and reading jeopardy questions,
                 and learning in general.
             </p>
             <p>
