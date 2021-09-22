@@ -5,7 +5,7 @@ export const data = {
     linkGitHub: "https://github.com/hzhu359",
     linkLinkedIn: "https://linkedin.com/in/hzhu359",
     linkInstagram: "https://www.instagram.com/harrisonfengzhu/",
-    linkResume: "https://www.dropbox.com/s/hwtjmsshm27xs81/Harrison_Zhu_resume.pdf?raw=1",
+    linkResume: "https://www.dropbox.com/s/bzg6nngeuixe2hz/Harrison_Zhu_resume.pdf?raw=1",
     linkProko: "https://youtu.be/-rQyZYPvVew",
     linkQuizBowl: "https://hdwhite.org/qb/stats/player/harrison+zhu/",
     greetList: [
