@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/harry-web/static/css/main.068dd925.chunk.css",
-    "main.js": "/harry-web/static/js/main.ec533f6b.chunk.js",
-    "main.js.map": "/harry-web/static/js/main.ec533f6b.chunk.js.map",
+    "main.js": "/harry-web/static/js/main.25537e4b.chunk.js",
+    "main.js.map": "/harry-web/static/js/main.25537e4b.chunk.js.map",
     "runtime-main.js": "/harry-web/static/js/runtime-main.367ba2f0.js",
     "runtime-main.js.map": "/harry-web/static/js/runtime-main.367ba2f0.js.map",
     "static/js/2.5cc29b83.chunk.js": "/harry-web/static/js/2.5cc29b83.chunk.js",
@@ -15,12 +15,13 @@
     "static/media/harry.1a4679e7.jpg": "/harry-web/static/media/harry.1a4679e7.jpg",
     "static/media/pic1.766328b2.jpg": "/harry-web/static/media/pic1.766328b2.jpg",
     "static/media/pic2.04f9c26a.jpg": "/harry-web/static/media/pic2.04f9c26a.jpg",
-    "static/media/pic3.c49c94ad.jpg": "/harry-web/static/media/pic3.c49c94ad.jpg"
+    "static/media/pic3.c49c94ad.jpg": "/harry-web/static/media/pic3.c49c94ad.jpg",
+    "static/media/profile-picture.194e5b0f.jpeg": "/harry-web/static/media/profile-picture.194e5b0f.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.367ba2f0.js",
     "static/js/2.5cc29b83.chunk.js",
     "static/css/main.068dd925.chunk.css",
-    "static/js/main.ec533f6b.chunk.js"
+    "static/js/main.25537e4b.chunk.js"
   ]
 }
