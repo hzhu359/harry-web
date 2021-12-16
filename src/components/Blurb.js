@@ -1,5 +1,6 @@
 import React from 'react'
 import { data } from "../constants/data";
+import SplitText from './SplitText';
 
 function Blurb() {
     return (
@@ -18,8 +19,12 @@ function Blurb() {
                 and learning in general.
             </p>
             <p>
-                i'm currently a teaching assistant for cs1332 (data structures & algorithms)
-                and an incoming software engineering intern at microsoft for summer 2021.
+                i'm currently a teaching assistant for cs1332 (data structures & algorithms),
+                a former software engineering intern at 
+                <SplitText text='microsoft' colorSequence={['#F25022', '#7FBA00', '#00A4EF', '#FFB900']}></SplitText>
+                under azure dedicated (summer '21),
+                and an incoming software engineering intern at 
+                <SplitText text='facebook' colorSequence={['#1778F2']}></SplitText> (summer '22).
             </p>
         </div>
     )
