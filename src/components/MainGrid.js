@@ -7,7 +7,7 @@ import Blurb from './Blurb'
 import Fun from './Fun'
 import NavBar from './NavBar'
 import FunPhoto from './FunPhoto'
-import pic from '../images/harry.jpg'
+import pic from '../images/profile-picture.jpeg'
 import { Route, Switch} from 'react-router-dom';
 import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
