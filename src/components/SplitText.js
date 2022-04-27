@@ -11,7 +11,7 @@ function SplitText(props) {
         let spanStyle = {
           color: colorCode
         }
-        return <span style={spanStyle}>{char}</span>
+        return <span key={idx} style={spanStyle}>{char}</span>
       })}
     </span>
   )

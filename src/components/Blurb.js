@@ -15,7 +15,8 @@ function Blurb() {
                 <small>trying</small> to run,
                 powerlifting,
                 classical music (my favorite <a href={data.linkProko}>piece</a>!),
-                playing <a href={data.linkQuizBowl}>quizbowl</a> occasionally and reading jeopardy questions,
+                cooking,
+                {/* playing <a href={data.linkQuizBowl}>quizbowl</a> occasionally and reading jeopardy questions, */}
                 and learning in general.
             </p>
             <p>
