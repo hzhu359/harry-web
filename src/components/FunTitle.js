@@ -32,7 +32,7 @@ function FunTitle(props) {
     const [greet, setGreet] = useState(randomChoice(greetList, null, true));
 
     return (
-        <ReactCSSTransitionReplace transitionName='cross-fade'>
+        <ReactCSSTransitionReplace transitionName='cross-fade' transitionEnterTimeout={100} transitionLeaveTimeout={100}>
             <span key={greet} className='helloText' onClick={() => setGreet(randomChoice(greetList, greet, false))}>
                 {greet}!
             </span>
