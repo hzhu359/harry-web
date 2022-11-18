@@ -7,6 +7,7 @@ import Blurb from './Blurb'
 import Fun from './Fun'
 import NavBar from './NavBar'
 import FunPhoto from './FunPhoto'
+import Capy from './Capy.js';
 import pic from '../images/profile-picture.jpeg'
 import { Route, Switch} from 'react-router-dom';
 import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +24,7 @@ function MainGrid() {
                     <Grid className='picContainer' container item spacing={3} direction='row' justify='center'>
                         <Grid item>
                             <img src={pic} alt='harrypic' className='harrypic'/>
-                            {/* <FunPhoto n={3}/> */}
+                            {/* < FunPhoto /> */}
                         </Grid>
                     </Grid>
                     <Grid className='socialGrid' container item spacing={3} justify='space-evenly'>

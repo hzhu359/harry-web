@@ -44,7 +44,7 @@ function FunTitle() {
     let random = randomChoice(picArray.length, photoDex, true)
     console.log(photoDex)
     return (
-        <ReactCSSTransitionReplace transitionName='cross-fade'>
+        <ReactCSSTransitionReplace transitionName='cross-fade' transitionEnterTimeout={100} transitionLeaveTimeout={100}>
             <img className='harrypic' key={photoDex} src={picArray[photoDex]} alt='my pic' onClick={() => setPhotoDex(randomChoice(picArray.length, photoDex, false))}/>
         </ReactCSSTransitionReplace>
     )

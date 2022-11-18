@@ -11,8 +11,6 @@ function Blurb() {
             </p>
             <p>
                 my interests are computer science theory (think algorithms and such),
-                machine learning,
-                <small>trying</small> to run,
                 powerlifting,
                 classical music (my favorite <a href={data.linkProko}>piece</a>!),
                 cooking,
@@ -24,8 +22,10 @@ function Blurb() {
                 a former software engineering intern at 
                 <SplitText text='microsoft' colorSequence={['#F25022', '#7FBA00', '#00A4EF', '#FFB900']}></SplitText>
                 under azure dedicated (summer '21),
-                and an incoming software engineering intern at 
-                <SplitText text='facebook' colorSequence={['#1778F2']}></SplitText> (summer '22).
+                a former software engineering intern at
+                <SplitText text='facebook' colorSequence={['#1778F2']}></SplitText> (summer '22),
+                and an incoming software engineering intern at
+                <SplitText text='databricks' colorSequence={['#ff3620']}></SplitText> (summer '23).
             </p>
         </div>
     )
