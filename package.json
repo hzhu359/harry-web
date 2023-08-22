@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "build": "react-scripts build",
-    "predeploy": "node src/scraper.js && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
